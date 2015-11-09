@@ -1,4 +1,4 @@
-proposal<-"Boilerplate ISC Proposal"
+proposal<-"RSaturdays [WIP]"
 proposal.file<-"isc-proposal.Rmd"
 author<-"Steph Locke"
 
