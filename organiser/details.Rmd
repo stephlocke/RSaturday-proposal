@@ -1,0 +1,26 @@
+# Event details
+This is an evolving list, but here are some things that we think you should do or think about, regarding your event.
+
+## Talking to us
+Before you start the ball rolling on your satRday, drop us line. Most of us helping out centrally have run conferences before, so we'll do some things like:
+
+- help you set a date that optimises attendance
+- help point you in the direction of sponsors
+- be a mentor / lifeline/ shoulder to cry on / introducer
+
+## Day
+We think it should be a Saturday of course! that being said, you can extend the conference to run on the Friday and/or Sunday too and make it a weekendR.
+
+## Content
+What actually gets presented at your satRday is entirely up to you! We do however, have some recommendations designed to cater to different segments of the potential attendees:
+
+- A workshop to help beginners get started. We [have one]() "pre-canned" and ready to go that any intermediate R user can give it.
+
+## Branding
+We've designed an open source brand. We do hope that your satRday will keep the essential logo, but you are absolutely encouraged to modify it to suit your needs.
+
+## Code of conduct
+Part of our commitment to the community is to be an open and inclusive community. As such, each satRday **must** have a Code of Conduct, and have done the ground work to ensure that it can be upheld in the event of any (unlikely) issues.
+
+## Charging
+We'd like to keep the events as cheap as possible in order to make them accessible. Our guideline is that it should cost no more than a console game (~$50) and that you should have a mechanism to allow people to request free attendance.

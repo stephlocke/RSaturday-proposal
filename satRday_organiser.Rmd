@@ -1,0 +1,26 @@
+---
+title: "satRday - an organiser's guide"
+author: "`r author`"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, eval=TRUE, results='hide', echo=FALSE}
+knitr::opts_knit$set(warning = FALSE, message= FALSE)
+```
+
+
+```{r autodoc, child='organiser/intro.Rmd', eval=TRUE}
+```
+
+```{r autodoc, child='organiser/gettingstarted.Rmd', eval=TRUE}
+```
+
+```{r autodoc, child='organiser/infrastructure.Rmd', eval=TRUE}
+```
+
+```{r autodoc, child='organiser/timeline.Rmd', eval=TRUE}
+```
+
+```{r autodoc, child='organiser/details.Rmd', eval=TRUE}
+```

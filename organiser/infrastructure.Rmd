@@ -1,0 +1,4 @@
+# Infrastructure
+Setting up a confernece is tough - you have to do sponsorship, marketing, logistics, speaker selection, and on top of that all you usually have to build or piecce together the systems to support it all.
+
+For satRday's we're looking to simplify the process and provide [insert stuff here once we know what we're aiming to deliver]

@@ -1,0 +1,5 @@
+# Quick start guide
+The satRday project is co-ordinated centrally, but people run their own instances of satRdays. Initially, the process for getting started running a satRday might be kind of ad-hoc as we grow to suit people's requirements.
+
+Our current quick-start version of a satRday is to be one of our trial events. You should [register your interest](https://github.com/stephlocke/RSaturday-proposal/issues/11).
+
