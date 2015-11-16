@@ -1,4 +1,4 @@
-# RSaturday-proposal
+# satRday proposal
 [![Build Status](https://travis-ci.org/stephlocke/RSaturday-proposal.svg?branch=master)](https://travis-ci.org/stephlocke/RSaturday-proposal)
 
 This repository is for the development of a proposal for the R Consortium around the development of community events, and a platform to manage them. At present most of the activity is happening in the [Issues section](https://github.com/stephlocke/RSaturday-proposal/issues) as we discuss various aspects of the proposal.
@@ -28,7 +28,7 @@ There is an existing model in the SQL Server world, called a SQL Saturday, which
 @stephlocke outlined the idea initially in a blog [SQLSaturdays but for R?](http://itsalocke.com/sqlsaturdays-but-for-r/) and raised the idea at the [R Consortium](https://www.r-consortium.org/) panel at [EARL Boston](http://www.earl-conference.com/boston/agenda/) receiving initial support the idea. We now just have to decide what we want to do :-)
 
 ## TODO
- - [ ] Set up discussion points as issues
+ - [x] Set up discussion points as issues
  - [ ] Develop estimated timeline for agreeing discussion points in time for submission mid-December
  - [ ] Build proposal and project team who can be responsible for carrying out different areas of the plan
  - [ ] Write more TODO :-)
