@@ -14,5 +14,5 @@ Join us on the [proposal repo](https://github.com/stephlocke/RSaturday-proposal)
 The artefacts produced so far are:
 
 - [ISC Proposal doc - web version](isc-proposal.html)
-- [ISC Proposal doc - PDF version](isc-preoposal.pdf)
+- [ISC Proposal doc - PDF version](isc-proposal.pdf)
 - [Organisers guide](satRday_organiser.html)
