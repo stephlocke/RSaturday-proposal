@@ -11,3 +11,5 @@ rmarkdown::render(proposal.file, output_format="pdf_document",
 # Additional docs
 rmarkdown::render("satRday_organiser.Rmd", output_format="html_document",
                   output_dir="out", quiet=TRUE)
+rmarkdown::render("index.Rmd", output_format="html_document",
+                  output_dir="out", quiet=TRUE)
