@@ -1,6 +1,4 @@
 #!/bin/bash
-
-rm -rf out || exit 0;
 mkdir out;
 
 GH_REPO="@github.com/stephlocke/RSaturday-proposal.git"
