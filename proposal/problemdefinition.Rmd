@@ -9,5 +9,16 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
+In 2015, we saw a bumper number of R conferences:
 
+- UseR!, Denmark, ~£400
+- EARL London, UK, ~£400
+- EARL Boston, USA, ~£400
+- R/Finance, USA, ~£200
+- R in Insurance, Holland, ~£300
+- [Any Others?]
+
+Some of these were organised by companies, others by a collection of user groups. Unfortunately, this is still relatively few conferences and the travel costs for people to attend are typically large.
+
+The costs involved with attending these conferences makes it difficult for a wide range of people to attend. Conferences are a common way to engage both new and existing users of a technology, and ensuring that more conferences develop around R is an important step for growing the user base.
 

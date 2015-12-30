@@ -7,6 +7,13 @@ This is where the proposal should be outlined.
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
+This proposal seeks to provide a mechanism by which the R Consortium can foster the R community through conferences.
+
+The key points of the proposal are:
+
+  1. Provide a brand for R community conferences that can be used by r user groups globally to hold conferences in their region
+  2. Develop a central site for the hosting and management of the conferences, using and contributing to an existing open-source conference system initiative
+  3. Hold three trial conferences in the US, EMEA, and another region
 
 ## Detail
 <!--
@@ -18,3 +25,48 @@ Depending on project type the detail section should include:
  - [ ] Architecture
  - [ ] Assumptions
 -->
+### The brand: satRdays
+Smaller community-led conferences benefit significantly from an overarching brand.
+
+From an organiser's perspective, it greatly reduces the work on developing an identity for the conference. From an attendee's perspective, it sets expectations for the conference. From a sponsor's perspective, it gives a marker of quality and provides a means of globally funding individual events.
+
+With the benefits in mind, the conference branding developed after discussions is:
+
+ - Name = satRday
+ - Cost = <£30
+ - Duration = Typically a day
+ - Focus = Primarily R technology
+ - Organisers = One or more user groups in an area
+ - Audience = R users
+ 
+### The infrastructure: satRdays.org
+There will be a central site which is used by satRday organisers to host and manage their conferences. The site will facilitate the:
+
+- Creation of events with templated content
+- Customisation of event content by organisers
+- Submission of sessions by speakers for consideration
+- Selection and scheduling of sessions by organisers
+- Registration of attendees
+- Hosting of slides etc. from sessions
+
+There are number of open source conference systems out there, and these were evaluated on the following factors:
+
+- How many initial requirements were possible out of the box
+- The state of the OS project
+- The ability of the proposal participants to extend the system
+
+Based on these factors, we have selected [XXX]. In terms of development, the following phases are planned:
+
+  1. Initial implementation
+  2. Necessary additions
+  3. Nice to haves
+
+
+### The conferences
+There will be three trial conferences in 2016. These will be used to understand factors like existing appetite, speaker availability, optimal session formats, and sponsor appetite. The conferences are anticipated to be held in 2016H2 in the following locations:
+
+  1. LA, USA
+  2. London, UK
+  3. [XXX]
+  
+The three conferences will be part funded by the R Consortium and the Consortium members can be listed as individual companies for increased brand awareness. They may also charge up to £30 per attendee to cover the rest of the costs.

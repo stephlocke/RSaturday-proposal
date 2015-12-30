@@ -7,11 +7,22 @@ An idea of what is required to make the project actually happen
 <!--
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
+### Central
+The infrastructure and brand need some central coordination. Steph Locke, [XXX], and [YYY], will develop the central facilities.
+
+### Conferences
+Organisers are needed for the three conferences. Currently we have:
+
+ - Gergely Daróczi 
+ - [XXX]
 
 ## Processes
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
+There is a fundamental emphasis on open source within the satRday project. As little as possible will be closed source, and the community at large will be able to contribute to the development. With this in mind, not only will a code of conduct apply to the conferences themselves, but a contributor code of conduct will also apply.
+
+The IP and assets like the satRdays.org domain will need to be transferred to ownership by the R Consortium.
 
 ## Tools & Tech
 <!--
@@ -21,14 +32,26 @@ Will cloud computing be used - if yes are there are necessary components that wi
 
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
-
+  - The OS conference system [XXX]
+  - Site hosting
+  
+  
 ## Funding
 <!-- 
 [TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
 
 -->
+### Central infrastructure
+The central site will need hosting. Hosting of the site is expected to cost ~£50 per month.
+
+### Conferences
+The trial conferences are expected to have ~600 people attend in total.  The requested amount of monetary support for these events is £9,000.
+
+It is expected that after the first trial conferences, funding will switch to a more traditional model. 
 
 ## Summary
 <!--
 A summary of the requirements that contextualises the costs
 -->
+  - On-going hosting costs of <£600 per year
+  - Initial support of £9,000

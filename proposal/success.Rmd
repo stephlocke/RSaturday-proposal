@@ -7,16 +7,31 @@ Projects should have a definition of done that is measurable, and a thorough und
 <!-- 
 What does success look like? 
 -->
+This project will deliver a coherent brand for community R conferences, a central site, and three conferences.
 
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
+Milestones for the technical sides of the project are:
 
+  1. Informational site is live
+  2. Conference site functionality is live
+
+Milestones for each conference are:
+  
+  1. Location decided
+  2. Budgets put together
+  3. Venue confirmed
+  4. Registration open
+  5. Agenda published
+  6. The conference!
+  
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
+This infrastructure and first few events give us the potential for greatly developing the R community. It also has a lot of side benefits like being an ideal place to host beginner R labs, showcase developer work, grow the avenues for commercial partners to engage with r users and so forth.
 
 ## Key risks
 <!-- 
@@ -28,3 +43,7 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+
+Short term, the biggest risks to the project are the organisers of the individual events not pulling it off and the central site being not fit for purpose. Mitigants for this involve a seperation of duties so that noone is over-burdened, and involving the community where possible.
+
+Long term, the biggest risk is a lack of sponsors to make conferences viable.  Hopefully, the R ecosystem will continue to grow and commercial partners will see the benefits of conferences, but if that doesn't happen the ability to charge up to £30 per attendee should be sufficient to maintain a conference so long as they budget appropriately.
