@@ -8,13 +8,10 @@ An idea of what is required to make the project actually happen
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
 ### Central
-The infrastructure and brand need some central coordination. Steph Locke, [XXX], and [YYY], will develop the central facilities.
+The infrastructure and brand need some central coordination. Steph Locke will develop the central facilities, and grow the contributors to this area.
 
 ### Conferences
-Organisers are needed for the three conferences. Currently we have:
-
- - Gergely Daróczi 
- - [XXX]
+Organisers are needed for the three conferences. Gergely Daróczi is our first organiser and will put together a team for his conference.
 
 ## Processes
 <!-- 

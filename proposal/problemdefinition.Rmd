@@ -16,9 +16,12 @@ In 2015, we saw a bumper number of R conferences:
 - EARL Boston, USA, ~£400
 - R/Finance, USA, ~£200
 - R in Insurance, Holland, ~£300
+- BioC 2015, USA, [??]
+- European Bioconductor Developers' Meeting 2015, UK, [??]
 - [Any Others?]
 
-Some of these were organised by companies, others by a collection of user groups. Unfortunately, this is still relatively few conferences and the travel costs for people to attend are typically large.
+Unfortunately, this is still relatively few conferences. Few are outside of the US and the UK, making the travel costs significant for users of R outside of these areas.
 
-The costs involved with attending these conferences makes it difficult for a wide range of people to attend. Conferences are a common way to engage both new and existing users of a technology, and ensuring that more conferences develop around R is an important step for growing the user base.
+These costs make attending R conferences difficult, reducing the audience who can attend and limiting it to those who either have the money themselves or who belong to organisation that will pay for them to attend.
 
+Conferences are a vital aspect of a tech community as provide a concentrated learning and networking environment. User groups have a similar effect but conferences are an order of magnitude greater due to the greater volumes of people and breadth of content.
