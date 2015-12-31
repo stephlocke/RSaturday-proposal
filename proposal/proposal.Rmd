@@ -24,7 +24,13 @@ Depending on project type the detail section should include:
  - [ ] Assumptions
 -->
 ## The brand: satRdays
-![](../satRdayLogo.png)
+```{r fig.width=2, fig.height=2,echo=FALSE, warning=FALSE}
+library(png)
+library(grid)
+img <- readPNG("../satRdayLogo.png")
+ grid.raster(img)
+```
+
 satRdays will be free or cheap conferences held primarily on Saturdays. They will focus on R but the emphasis will be determined by local audience. A satRday will typically be run by one or more user group organisers looking to provide a regional conference.
 
 satRdays are held on weekends to make it easier for people who cannot take the time out of the week to attend, or those who have to travel to the event (like speakers). The maximum cost of £30 per head makes the event much more accessible, and provisions will be put in place to enable free attendance for those that need it.

@@ -7,6 +7,8 @@ output: html_document
 
 Welcome to the planning outputs of the satRday proposal.
 
+![satRday](satRdayLogo.png)
+
 ## Contribute
 Join us on the [proposal repo](https://github.com/stephlocke/RSaturday-proposal) to have your say and/or help us deliver this idea!
 
