@@ -1,4 +1,15 @@
 # Infrastructure
 Setting up a confernece is tough - you have to do sponsorship, marketing, logistics, speaker selection, and on top of that all you usually have to build or piecce together the systems to support it all.
 
-For satRday's we're looking to simplify the process and provide [insert stuff here once we know what we're aiming to deliver]
+For satRday's we're looking to simplify the process and provide:
+
+ - A central site that gives:
+   + registration capabilities
+   + a way of receiving sessions for consideration
+   + an agenda building capabilities
+ - A brand that:
+   + works out of the box
+   + gives a logo that can be tweaked to suit your event
+   + makes calls for speakers etc easier
+ - Central mentors, who have run conferences in the past
+ 

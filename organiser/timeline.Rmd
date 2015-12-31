@@ -5,7 +5,7 @@ You should start thinking about your satRday six months to a year before you'd l
 - t-6months: Set a target date (plus a backup) 
 - t-6months: Set initial budget
 - t-5months: Book venue
-- t-4.5months: Start looking for sponsors
+- t-4.5months: Start looking for sponsors (if required)
 - t-4months: Announce event
 - t-4months: Call for speakers
 - t-2months: Pick speakers

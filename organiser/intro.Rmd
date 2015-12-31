@@ -1,9 +1,9 @@
 # Welcome!
 You're probably here because you're thinking about running a satRday. 
 
-satRdays are a free/low cost conference organised by a local user group, or to spur the creation of a user group! They focus on R, but can take different emphases; whether your area is brimming is with data scientists, academics, or general techiews, you can tailor your event to attract your local people.
+satRdays are a free/low cost conference organised by a local user group, or to spur the creation of a user group! They focus on R, but can take different emphases; whether your area is brimming is with data scientists, academics, or general techies, you can tailor your event to attract your local people.
 
 This document provides an overview of the different things you should know and think about, before kicking off your own satRday. It's a living document so do ask questions and provide feedback!
 
 ## What we're looking for
-We're in our formative period and instead of going hell for leather, we'd like to experiment and learn. So for initial events, we're thinking of having one or two in each major country grouping e.g. US, EMEA, LATAM, APAC. In terms of size, we think 100+ attendees should probably be the minimum number of attendees targeted. This means either a conference could be run nationally, or in a big urban area.
+We're in our formative period and instead of going hell for leather, we'd like to experiment and learn. So for initial events, we're thinking of having one or two in each major country grouping e.g. US, EMEA, LATAM, APAC. In terms of size, we think 100+ attendees should probably be the minimum number of attendees targeted. This means either a conference could be marketed nationally and held in a convenient city center.
