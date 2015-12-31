@@ -7,7 +7,12 @@ output: html_document
 
 Welcome to the planning outputs of the satRday proposal.
 
-![satRday](satRdayLogo.png)
+```{r fig.width=2, fig.height=2,echo=FALSE, warning=FALSE}
+library(png)
+library(grid)
+img <- readPNG("satRdayLogo.png")
+ grid.raster(img)
+```
 
 ## Contribute
 Join us on the [proposal repo](https://github.com/stephlocke/RSaturday-proposal) to have your say and/or help us deliver this idea!
