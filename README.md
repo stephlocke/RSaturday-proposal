@@ -34,6 +34,10 @@ Community growth and support make up a significant portion of the R Consortium g
 
 ## TODO
  - [x] Set up discussion points as issues
- - [ ] Develop estimated timeline for agreeing discussion points in time for submission mid-December
- - [ ] Build proposal and project team who can be responsible for carrying out different areas of the plan
- - [ ] Write more TODO :-)
+ - [x] Develop estimated timeline for agreeing discussion points in time for submission mid-December
+ - [x] Build proposal and project team who can be responsible for carrying out different areas of the plan
+ - [x] Write more TODO :-)
+ - [ ] Setup some OS Conference sites for assessment
+ - [ ] Agree central team
+ - [ ] Agree conference teams
+ - [ ] Determine which OS site to use, & plan for meeting requirements
