@@ -14,13 +14,13 @@ We think it should be a Saturday of course! that being said, you can extend the 
 ## Content
 What actually gets presented at your satRday is entirely up to you! We do however, have some recommendations designed to cater to different segments of the potential attendees:
 
-- A workshop to help beginners get started. We [have one]() "pre-canned" and ready to go that any intermediate R user can give it.
+- A workshop to help beginners get started. There is another neat ISC proposal to build one of these so that it's "pre-canned" and ready to go that any intermediate R user can give it.
 
 ## Branding
 We've designed an open source brand. We do hope that your satRday will keep the essential logo, but you are absolutely encouraged to modify it to suit your needs.
 
 ## Code of conduct
-Part of our commitment to the community is to be an open and inclusive community. As such, each satRday **must** have a Code of Conduct, and have done the ground work to ensure that it can be upheld in the event of any (unlikely) issues.
+Part of our commitment to the community is to be an open and inclusive community. As such, each satRday **must** have a [Code of Conduct](ConferenceCodeOfConduct.html), and have done the ground work to ensure that it can be upheld in the event of any (unlikely) issues.
 
 ## Charging
-We'd like to keep the events as cheap as possible in order to make them accessible. Our guideline is that it should cost no more than a console game (~$50) and that you should have a mechanism to allow people to request free attendance.
+We'd like to keep the events as cheap as possible in order to make them accessible. Our guideline is that it should cost attendees no more than a console game (~$50) and that you should have a mechanism to allow people to request free attendance.
