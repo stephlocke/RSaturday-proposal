@@ -29,7 +29,7 @@ Will cloud computing be used - if yes are there are necessary components that wi
 
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
-  - The OS conference system [XXX]
+  - The OS conference system: [Conference Organizing Distribution](http://usecod.com/)
   - Site hosting
   
   
@@ -44,7 +44,7 @@ The central site will need hosting. Hosting of the site is expected to cost ~£5
 ### Conferences
 The trial conferences are expected to have ~600 people attend in total.  The requested amount of monetary support for these events is £9,000.
 
-It is expected that after the first trial conferences, funding will switch to a more traditional model. 
+It is expected that after the first trial conferences, funding will switch to a more traditional model and seek sponsorship directly. 
 
 ## Summary
 <!--

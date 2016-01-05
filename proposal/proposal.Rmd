@@ -55,12 +55,9 @@ There are number of open source conference systems out there, and these were eva
 - The state of the OS project
 - The ability of the proposal participants to extend the system
 
+A Drupal site based on the Conference Organiser Distribution will be used.
 
 ## The conferences
-There will be three trial conferences in 2016. These will be used to understand factors like existing appetite, speaker availability, optimal session formats, and sponsor appetite. The conferences are anticipated to be held in 2016H2 in the following locations:
+There will be three trial conferences in 2016. These will be used to understand factors like existing appetite, speaker availability, optimal session formats, and sponsor appetite. The conferences are anticipated to be held in 2016H2.
 
-  1. LA, USA
-  2. [XXX]
-  3. [XXX]
-  
 The three conferences will be part funded by the R Consortium and the Consortium members can be listed as individual companies for increased brand awareness. They may also charge up to £30 per attendee to cover the rest of the costs.
