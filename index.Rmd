@@ -23,3 +23,4 @@ The artefacts produced so far are:
 - [ISC Proposal doc - web version](isc-proposal.html)
 - [ISC Proposal doc - PDF version](isc-proposal.pdf)
 - [Organisers guide](satRday_organiser.html)
+- [The Conference Code of Conduct](ConferenceCodeOfConduct.html)

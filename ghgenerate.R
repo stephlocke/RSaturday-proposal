@@ -13,3 +13,5 @@ rmarkdown::render("satRday_organiser.Rmd", output_format="html_document",
                   output_dir="out", quiet=TRUE)
 rmarkdown::render("index.Rmd", output_format="html_document",
                   output_dir="out", quiet=TRUE)
+rmarkdown::render("ConferenceCodeOfConduct.Rmd", output_format="html_document",
+                  output_dir="out", quiet=TRUE)
