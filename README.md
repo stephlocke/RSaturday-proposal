@@ -32,12 +32,5 @@ Set up in 2015, the R Consortium is an organisation set up to help support the R
 
 Community growth and support make up a significant portion of the R Consortium goals. They're here to help us build the community, so let's build the community!
 
-## TODO
- - [x] Set up discussion points as issues
- - [x] Develop estimated timeline for agreeing discussion points in time for submission mid-December
- - [x] Build proposal and project team who can be responsible for carrying out different areas of the plan
- - [x] Write more TODO :-)
- - [ ] Setup some OS Conference sites for assessment
- - [ ] Agree central team
- - [ ] Agree conference teams
- - [ ] Determine which OS site to use, & plan for meeting requirements
+## Code of Conduct
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
