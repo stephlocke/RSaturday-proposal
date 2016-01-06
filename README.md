@@ -1,9 +1,17 @@
 # satRday proposal
-[![Build Status](https://travis-ci.org/stephlocke/RSaturday-proposal.svg?branch=master)](https://travis-ci.org/stephlocke/RSaturday-proposal)
+[![Build Status](https://travis-ci.org/stephlocke/RSaturday-proposal.svg?branch=master)](https://travis-ci.org/stephlocke/RSaturday-proposal) [![Sign Up](https://img.shields.io/badge/signup-here-blue.svg?style=social&link=http://goo.gl/forms/Xv7mym0BwJ&link=http://goo.gl/forms/Xv7mym0BwJ)](http://goo.gl/forms/Xv7mym0BwJ)
 
-This repository is for the development of a proposal for the R Consortium around the development of community events, and a platform to manage them. At present most of the activity is happening in the [Issues section](https://github.com/stephlocke/RSaturday-proposal/issues) as we discuss various aspects of the proposal.
+<img src="satRdayLogo.png" width="250">
 
-You can check the outputs of this repo out at [satRdays.org](http://planning.satrdays.org)
+This repository is for the development of a proposal for the R Consortium around the development of community events, and a platform to manage them. 
+
+## Get involved!
+There are three ways to get involved:
+
+- Read our docs at [satRdays.org](http://planning.satrdays.org)
+- Have your say in the [Issues section](https://github.com/stephlocke/RSaturday-proposal/issues)
+- Register your interest on the [survey](http://goo.gl/forms/Xv7mym0BwJ)
+
 
 ## About
 This proposal surrounds support for smaller, but more frequent conferences, that are run by user groups in an area. They allow for growth of the user base whilst making access to speakers and content much easier by bringing the content to an area.
