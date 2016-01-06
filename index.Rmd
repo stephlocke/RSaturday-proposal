@@ -5,7 +5,9 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
-Welcome to the planning outputs of the satRday proposal.
+Welcome to the planning outputs of the satRday proposal!
+
+SatRdays are free/cheap conferences focused on R and organised by the local R community. they're aimed at making R knowledge accessible, growing the R user base, and developing more speakers on R.
 
 ```{r fig.width=2, fig.height=2,echo=FALSE, warning=FALSE}
 library(png)
@@ -15,10 +17,10 @@ img <- readPNG("satRdayLogo.png")
 ```
 
 ## Contribute
-Join us on the [proposal repo](https://github.com/stephlocke/RSaturday-proposal) to have your say and/or help us deliver this idea!
+[Register your interest](http://goo.gl/forms/Xv7mym0BwJ) or join us on the [proposal repo](https://github.com/stephlocke/RSaturday-proposal) to have your say and/or help us deliver this idea!
 
 ## Browse the docs
-The artefacts produced so far are:
+Here's what we have so far!
 
 - [ISC Proposal doc - web version](isc-proposal.html)
 - [ISC Proposal doc - PDF version](isc-proposal.pdf)
