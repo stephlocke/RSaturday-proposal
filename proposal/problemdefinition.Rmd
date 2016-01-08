@@ -9,19 +9,32 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-In 2015, we saw a bumper number of R conferences:
+Tech conferences are a vital way of growing the community, especially when the conferences are organised by people from within the community. Like user groups, they provide an essential mechanism for people to network, learn, and develop themselves. Conferences can cover a higher volume and broader scope of content than a user group can. This makes them applicable to people from different industries with varying levels of knowledge around a technology - the ability to cater for this variety is where they can provide a substantial benefit over and above a user group.
 
-- UseR!, Denmark, ~£400
-- EARL London, UK, ~£400
-- EARL Boston, USA, ~£400
-- R/Finance, USA, ~£200
-- R in Insurance, Holland, ~£300
-- BioC 2015, USA, [??]
-- European Bioconductor Developers' Meeting 2015, UK, [??]
-- [Any Others?]
+In 2015, we saw a bumper number of R conferences. These were:
 
-Unfortunately, this is still relatively few conferences. Few are outside of the US and the UK, making the travel costs significant for users of R outside of these areas.
+- General R
+    + UseR!, Denmark, ~£400
+    + EARL London, UK, ~£400
+    + EARL Boston, USA, ~£400
+    + Rencontres R, France, ~£120
+    + China R, China, [free?]
+    + New York R conference, USA, [??]
+    + R-omania conference, Romania, ~£75
+    + VII Jornadas de Usuarios de R (7th Meeting of Spanish R Users), Spain, **FREE**
+- BioConductor
+    + BioC 2015, USA, ~£400
+    + European BioConductor Developers' Meeting 2015, Germany, **FREE**
+    + European BioConductor Developers' Meeting 2015, UK, **FREE**
+    + BioConductor Asia-Pacific Developer Meeting, Japan, **FREE**
+- Industry specific
+    + R/Finance, USA, ~£200
+    + R in Insurance, Holland, ~£300
+    + Psychoco 2015, Holland, **FREE**
+    + R Programing Language and Basic Statistics for Research (R2015), Thailand, ~£100
 
-These costs make attending R conferences difficult, reducing the audience who can attend and limiting it to those who either have the money themselves or who belong to organisation that will pay for them to attend.
+Unfortunately, this is still relatively few conferences. R has a huge surface areas, and the industry/topic specific conferences make a lot of sense, but the general conferences, that have the scope to meet the needs of a wide audience, occurred in just 6 countries. 
 
-Conferences are a vital aspect of a tech community as provide a concentrated learning and networking environment. User groups have a similar effect but conferences are an order of magnitude greater due to the greater volumes of people and breadth of content.
+The BioConductor events are typically free but most other R conferences are not. Between the admission costs and the travel costs to reach the relatively few conferences, it puts R conferences out of reach of much of the world. Even in countries where they take place, many people won't be able to get the budget or sign off to attend. As a result, R conferences have an inherently biased audience and they do not help foster the growth of the R community enough.
+
+Additionally, the limited options do not help us foster local speakers and organisers. Community driven conferences allow for a stronger focus of developing the R ecosystem so that we can help sustain an increasing number of experts and community leaders. These people are essential in facilitating a wider growth in the R user base.
