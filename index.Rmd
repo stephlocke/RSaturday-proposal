@@ -7,7 +7,7 @@ output: html_document
 
 Welcome to the planning outputs of the satRday proposal!
 
-SatRdays are free/cheap conferences focused on R and organised by the local R community. they're aimed at making R knowledge accessible, growing the R user base, and developing more speakers on R.
+SatRdays are free/cheap conferences focused on R and organised by the local R community. They're aimed at making R knowledge accessible, growing the R user base, and developing more speakers on R.
 
 ```{r fig.width=2, fig.height=2,echo=FALSE, warning=FALSE}
 library(png)
