@@ -15,6 +15,13 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ## Interested parties
 We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties:
 
-```{r, echo=FALSE}
+```{r, echo = FALSE}
+
+## load anonymized data from Google Spreadsheet
+## NOTE this is a manual "copy and paste" (!) of the survey responses
+##      into a new spreadsheet, as there is no other way to clear
+##      the e-mail addresses from the revision history
 library(googlesheets)
+responses <- gs_key('1bkHGoae_j3Ikp3Bw7AO9kxCu_tC2HSzGhvlSMskGHvI', visibility = 'public', verbose = FALSE)
+responses <- gs_read(responses, ws = 1, range = cell_rows(1:279), verbose = FALSE)
 ```
