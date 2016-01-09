@@ -13,5 +13,5 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ### Gergely Daroczi
 Gergely is the maintainer of the `pander` and a few other minor CRAN packages, organizer of the Hungarian R User Group with ~500 members, technical founder of an R and Ruby-on-Rails driven reporting application at rapporter.net, author of an intermediary R book and currently working as a Lead R Developer and Research Data Scientist at CARD.com in Los Angeles.
 
-```{r child='interestedparties.md'}
+```{r child='interestedparties.Rmd'}
 ```
