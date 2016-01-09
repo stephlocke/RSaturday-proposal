@@ -20,7 +20,7 @@ In 2015, we saw a bumper number of R conferences. These were:
     + Rencontres R, France, ~£120
     + Xian R, China, ~£120
     + Beijing R, China, ~£110
-    + New York R conference, USA, [??]
+    + New York R conference, USA, ~£350
     + R-omania conference, Romania, ~£75
     + VII Jornadas de Usuarios de R (7th Meeting of Spanish R Users), Spain, **FREE**
 - BioConductor
