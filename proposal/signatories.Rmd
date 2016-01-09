@@ -13,7 +13,7 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ### Gergely Daroczi
 
 ## Interested parties
-
+<!--
 ```{r load_data, echo = FALSE}
 ## load anonymized data from the referenced Google Spreadsheet
 ## NOTE this is a manual "copy and paste" (!) of the survey responses
@@ -30,9 +30,9 @@ responses <- data.table(responses)
 ## programmer-friendly column names
 setnames(responses, c('region', 'location', 'travel', 'roles'))
 ```
-
-We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
-
+-->
+We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r 322` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
+<!--
 ```{r plot_region, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
 ## order factor levels based on the number of respondents
 responses[, region := factor(region, levels = responses[, .N, by = region][order(N), region])]
@@ -46,7 +46,7 @@ ggplot(responses, aes(x = region)) +
   xlab('') + ylab('') + ggtitle('What part of the world are you in?')
 ```
 
-<!--
+
 A more detailed breakdown of the location of the interested parties:
 
 ```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 7}
@@ -64,7 +64,7 @@ geom_point(aes(x = lon, y = lat, size = N), color = '#2165B6',
   theme_minimal() + theme('legend.position' = 'top')
 
 ```
--->
+
 We also asked how far the interested parties are willing to travel for an satRday event:
 
 ```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
@@ -113,3 +113,4 @@ ggplot(data.table(promises), aes(x = promises)) +
 ```
 
 We already have more than `r floor(sum(promises == 'Presenting at a satRday') / 100) * 100` presenters, almost `r ceiling(sum(promises == 'Attending a satRday') / 100) * 100` attendees and `r sum(promises == 'Helping improve the website')` webmasters -- what can go wrong?
+-->
