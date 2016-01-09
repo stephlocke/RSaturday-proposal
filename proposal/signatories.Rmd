@@ -13,11 +13,9 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ### Gergely Daroczi
 
 ## Interested parties
-We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties:
 
-```{r, echo = FALSE, fig.width = 6, fig.height = 3}
-
-## load anonymized data from Google Spreadsheet
+```{r load_data, echo = FALSE}
+## load anonymized data from the referenced Google Spreadsheet
 ## NOTE this is a manual "copy and paste" (!) of the survey responses
 ##      into a new spreadsheet, as there is no other way to clear
 ##      the e-mail addresses from the revision history
@@ -31,8 +29,12 @@ responses <- data.table(responses)
 
 ## programmer-friendly column names
 setnames(responses, c('region', 'location', 'travel', 'roles'))
+```
 
-## number of interested parties per continent
+We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties:
+
+```{r plot_region, echo = FALSE, fig.width = 6, fig.height = 3}
+## number of interested parties per region
 suppressPackageStartupMessages(library(ggplot2))
 ggplot(responses, aes(x = region)) +
   geom_bar() + theme_bw() + coord_flip() +
@@ -43,7 +45,7 @@ ggplot(responses, aes(x = region)) +
 
 A more detailed breakdown of the location of the interested parties:
 
-```{r, echo = FALSE, fig.width = 10, fig.height = 8}
+```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 8}
 ## geocode locations
 suppressPackageStartupMessages(library(ggmap))
 responses[, c('lon', 'lat') := geocode(location, )]
