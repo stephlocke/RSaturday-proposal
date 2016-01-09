@@ -41,7 +41,7 @@ responses[, region := factor(region, levels = responses[, .N, by = region][order
 suppressPackageStartupMessages(library(ggplot2))
 ggplot(responses, aes(x = region)) +
   geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
-  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+  geom_text(data=responses[,.N,region],aes(y = N , label = N),
             color = 'white', hjust = 1.3) +
   xlab('') + ylab('') + ggtitle('What part of the world are you in?')
 ```
@@ -77,7 +77,7 @@ responses[, travel := factor(travel, levels = rev(c(
 ## plot the number of interested parties willing to travel
 ggplot(na.omit(responses), aes(x = travel)) +
   geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
-  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+  geom_text(data=responses[,.N,travel],aes(y = N , label = N),
             color = 'white', hjust = 1.3) +
   xlab('') + ylab('') + ggtitle('How far are you willing to travel?')
 ```
@@ -106,7 +106,7 @@ promises <- factor(promises, levels = names(sort(table(promises))))
 ## plot the number of interested parties willing to do stuff
 ggplot(data.table(promises), aes(x = promises)) +
   geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
-  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+  geom_text(data=data.table(promises)[,.N,promises],aes(y = N , label = N),
             color = 'white', hjust = 1.3) +
   xlab('') + ylab('') + ggtitle('What role(s) are you interested in?')
 ```
