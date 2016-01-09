@@ -31,7 +31,7 @@ Milestones for each conference are:
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
-This infrastructure and first few events give us the potential for greatly developing the R community. It also has a lot of side benefits like being an ideal place to host beginner R labs, showcase developer work, grow the avenues for commercial partners to engage with r users and so forth.
+This infrastructure and first few events give us the potential for greatly developing the R community. It also has a lot of side benefits like being an ideal place to host beginner R labs, showcase developer work, grow the avenues for commercial partners to engage with R users and so forth.
 
 If the events are a success then the model for onging financial support will need to determined. There are a number of (not mutually exclusive) options available:
 
