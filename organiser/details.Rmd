@@ -11,6 +11,9 @@ Before you start the ball rolling on your satRday, drop us line. Most of us help
 ## Day
 We think it should be a Saturday of course! that being said, you can extend the conference to run on the Friday and/or Sunday too and make it a weekendR.
 
+## Venues
+Great places for satRdays are universities, Microsoft buildings, and other work places. The neat thing about satRdays is they can use places that have the necessary AV & layouts for the events, without having to go to "conference venues" since it's not during the working week. Microsoft are actually very helpful and you can often run a very cheap conference if Microsoft are able to host your event. Other Consortium members and local firms who use R, may also be able to offer up a venue for the day.
+
 ## Content
 What actually gets presented at your satRday is entirely up to you! We do however, have some recommendations designed to cater to different segments of the potential attendees:
 
@@ -24,3 +27,10 @@ Part of our commitment to the community is to be an open and inclusive community
 
 ## Charging
 We'd like to keep the events as cheap as possible in order to make them accessible. Our guideline is that it should cost attendees no more than a console game (~$50) and that you should have a mechanism to allow people to request free attendance.
+
+## Funding & liability
+Now the not so fun stuff - money and liability.
+
+A lot of cash gets moved around for these events. When all the liability sits on the Consortium, you can appreciate that it's going to make them nervous having it outside of their control. If all the liability sits on the organiser then that's going to make you nervous because that's a lot of cash! There's a halfway house here where everyone is kind of nervous - for the first three events at least the Consortium will look to pay some or all venue & catering costs and any outstanding costs will be covered by extra sponsorship funds and/or ticket sales.
+
+To make sure no-one ends up in a bad position, we'll be looking to help you with putting together budgets, contract negotiations, and anything else that will help ensure nothing goes wrong cash-wise. 
