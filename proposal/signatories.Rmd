@@ -39,5 +39,22 @@ ggplot(responses, aes(x = region)) +
   geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
             color = 'white', hjust = 1.1) +
   xlab('') + ylab('') + ggtitle('Number of interested parties per region')
+```
+
+A more detailed breakdown of the location of the interested parties:
+
+```{r, echo = FALSE, fig.width = 10, fig.height = 8}
+## geocode locations
+suppressPackageStartupMessages(library(ggmap))
+responses[, c('lon', 'lat') := geocode(location, )]
+
+## map points on a world-map with the weight of interested parties at the same location
+library(maps)
+ggplot(map_data('world')) +
+  geom_polygon(aes(x = long, y = lat, group = group), fill = 'grey90', colour = 'white') + 
+geom_point(aes(x = lon, y = lat, size = N), color = 'orange',
+           data = responses[, .N, by = .(lon, lat)]) +
+  xlab('') + ylab('') + ggtitle('Interested parties around the world') +
+  theme_minimal() + theme('legend.position' = 'top')
 
 ```
