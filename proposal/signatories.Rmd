@@ -112,4 +112,4 @@ ggplot(data.table(promises), aes(x = promises)) +
   xlab('') + ylab('') + ggtitle('What role(s) are you interested in?')
 ```
 
-We already have more than `r floor(sum(promises == 'Presenting at a satRday') / 100) * 100` presenters!
+We already have more than `r floor(sum(promises == 'Presenting at a satRday') / 100) * 100` presenters and `r sum(promises == 'Helping improve the website')` webmasters -- what can go wrong?
