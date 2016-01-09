@@ -24,4 +24,12 @@ We've had tremendous support from the community over the length of developing th
 library(googlesheets)
 responses <- gs_key('1bkHGoae_j3Ikp3Bw7AO9kxCu_tC2HSzGhvlSMskGHvI', visibility = 'public', verbose = FALSE)
 responses <- gs_read(responses, ws = 1, range = cell_rows(1:279), verbose = FALSE)
+
+## data.table showcase
+library(data.table)
+responses <- data.table(responses)
+
+## programmer-friendly column names
+setnames(responses, c('region', 'location', 'travel', 'roles'))
+
 ```
