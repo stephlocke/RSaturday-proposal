@@ -2,6 +2,7 @@
 output: md_document
 ---
 ## Interested parties
+
 ```{r load_data, echo = FALSE}
 ## load anonymized data from the referenced Google Spreadsheet
 ## NOTE this is a manual "copy and paste" (!) of the survey responses
@@ -17,6 +18,26 @@ responses <- data.table(responses)
 
 ## programmer-friendly column names
 setnames(responses, c('date','region', 'location', 'travel', 'roles'))
+
+
+suppressPackageStartupMessages(library(ggmap))
+# rudimentary cache invalidationn to save encoding everytime
+regen<-!file.exists("parties.csv")
+if(!regen){
+  regen<-nrow(fread("parties.csv"))<nrow(responses)
+  }
+
+if(regen){
+## geocode lookup table
+locations<-data.table(location=responses[,unique(location)])
+## geocode locations
+locations[, c('lon', 'lat') := geocode(location, messaging = FALSE,)]
+## add to responses
+responses<-locations[responses, on="location"]
+write.csv(responses,"parties.csv",row.names = FALSE)
+} else{
+  responses<-fread("parties.csv")
+}
 ```
 
 We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
@@ -37,10 +58,6 @@ ggplot(responses, aes(x = region)) +
 A more detailed breakdown of the location of the interested parties:
 
 ```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 7, message=FALSE, warning=FALSE}
-## geocode locations
-suppressPackageStartupMessages(library(ggmap))
-responses[, c('lon', 'lat') := geocode(location, messaging = FALSE)]
-
 ## map points on a world-map with the weight of interested parties at the same location
 library(maps)
 ggplot(map_data('world')) +
@@ -54,7 +71,7 @@ geom_point(aes(x = lon, y = lat, size = N), color = '#2165B6',
 
 We also asked how far the interested parties are willing to travel for an satRday event:
 
-```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
+```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide', warning=FALSE}
 ## fix factor levels
 responses[, travel := factor(travel, levels = rev(c(
                                          'To my nearest city',
@@ -70,7 +87,7 @@ ggplot(na.omit(responses), aes(x = travel)) +
   xlab('') + ylab('') + ggtitle('How far are you willing to travel?')
 ```
 
-It seems that most respondents are interested in local events, but quote many (~`r round(responses[travel != 'To my nearest city', .N] / responses[, .N] * 100)`%) respondents are willing to travel as well.
+It seems that most respondents are interested in local events, but many (~`r round(responses[travel != 'To my nearest city', .N] / responses[, .N] * 100)`%) respondents are willing to travel as well.
 
 Further great news and promising feedback from the community is that the respondents are willing to actively take part in future events:
 
@@ -100,3 +117,10 @@ ggplot(data.table(promises), aes(x = promises)) +
 ```
 
 We already have more than `r round(sum(promises == 'Presenting at a satRday') , -1)` presenters, roughly `r round(sum(promises == 'Attending a satRday') , -1)` attendees and `r round(sum(promises == 'Helping improve the website') , -1)` webmasters -- what can go wrong?
+
+```{r echo=FALSE, results='hide'}
+files<-list.files(path="~/RSaturday-proposal/proposal/interestedparties_files/figure-markdown_strict/",
+                  pattern = "*.png")
+file.copy(files,"~/RSaturday-proposal/proposal")
+file.copy(files,"~/RSaturday-proposal/")
+```

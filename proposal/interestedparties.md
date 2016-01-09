@@ -19,12 +19,10 @@ A more detailed breakdown of the location of the interested parties:
 We also asked how far the interested parties are willing to travel for
 an satRday event:
 
-    ## Warning: Removed 1 rows containing missing values (geom_text).
-
 ![](plot_travel-1.png)
 
-It seems that most respondents are interested in local events, but quote
-many (~31%) respondents are willing to travel as well.
+It seems that most respondents are interested in local events, but many
+(~31%) respondents are willing to travel as well.
 
 Further great news and promising feedback from the community is that the
 respondents are willing to actively take part in future events:
