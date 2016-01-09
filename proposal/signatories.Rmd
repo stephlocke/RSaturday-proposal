@@ -84,3 +84,32 @@ ggplot(na.omit(responses), aes(x = travel)) +
 ```
 
 It seems that most respondents are interested in local events, but quote many (~`r round(responses[travel != 'To my nearest city', .N] / responses[, .N] * 100)`%) respondents are willing to travel as well.
+
+Further great news and promising feedback from the community is that the respondents are willing to actively take part in future events:
+
+```{r plot_activity, echo = FALSE, fig.width = 10, fig.height = 5}
+## split list of promises
+promises <- unlist(strsplit(responses[, roles], ', '))
+
+## remove "other" answers
+promises <- promises[promises %in% c('Attending a satRday',
+                                     'Helping out a satRday',
+                                     'Helping publicise the events',
+                                     'Presenting at a satRday',
+                                     'Organising a satRday',
+                                     'Helping improve the website',
+                                     'Helping with central organisation',
+                                     'Sponsoring an event')]
+
+## order factor levels based on the number of respondents
+promises <- factor(promises, levels = names(sort(table(promises))))
+
+## plot the number of interested parties willing to do stuff
+ggplot(data.table(promises), aes(x = promises)) +
+  geom_bar() + theme_bw() + coord_flip() +
+  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+            color = 'white', hjust = 1.3) +
+  xlab('') + ylab('') + ggtitle('What role(s) are you interested in?')
+```
+
+We already have more than `r floor(sum(promises == 'Presenting at a satRday') / 100) * 100` presenters!
