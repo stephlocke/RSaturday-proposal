@@ -45,6 +45,10 @@ install:
   - Rscript -e 'if(!"rmarkdown" %in% rownames(installed.packages())) { install.packages("rmarkdown", dependencies = TRUE) }'
   - Rscript -e 'if(!"png" %in% rownames(installed.packages())) { install.packages("png", dependencies = TRUE) }'
   - Rscript -e 'if(!"googlesheets" %in% rownames(installed.packages())) { install.packages("googlesheets", dependencies = TRUE) }'
+  - Rscript -e 'if(!"readr" %in% rownames(installed.packages())) { install.packages("readr", dependencies = TRUE) }'
+  - Rscript -e 'if(!"data.table" %in% rownames(installed.packages())) { install.packages("data.table", dependencies = TRUE) }'
+  - Rscript -e 'if(!"ggmap" %in% rownames(installed.packages())) { install.packages("ggmap", dependencies = TRUE) }'
+  - Rscript -e 'if(!"maps" %in% rownames(installed.packages())) { install.packages("maps", dependencies = TRUE) }'
   - Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
 
 script:
