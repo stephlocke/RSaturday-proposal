@@ -51,8 +51,7 @@ A more detailed breakdown of the location of the interested parties:
 ```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 7}
 ## geocode locations
 suppressPackageStartupMessages(library(ggmap))
-##responses[, c('lon', 'lat') := geocode(location, )]
-responses <- readRDS('responses.RData')
+responses[, c('lon', 'lat') := geocode(location, )]
 
 ## map points on a world-map with the weight of interested parties at the same location
 library(maps)
