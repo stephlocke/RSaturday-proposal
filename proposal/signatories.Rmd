@@ -31,7 +31,7 @@ responses <- data.table(responses)
 setnames(responses, c('region', 'location', 'travel', 'roles'))
 ```
 
-We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties:
+We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
 
 ```{r plot_region, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
 ## order factor levels based on the number of respondents
@@ -43,7 +43,7 @@ ggplot(responses, aes(x = region)) +
   geom_bar() + theme_bw() + coord_flip() +
   geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
             color = 'white', hjust = 1.3) +
-  xlab('') + ylab('') + ggtitle('Number of interested parties per region')
+  xlab('') + ylab('') + ggtitle('What part of the world are you in?')
 ```
 
 A more detailed breakdown of the location of the interested parties:
@@ -60,7 +60,7 @@ ggplot(map_data('world')) +
   geom_polygon(aes(x = long, y = lat, group = group), fill = 'grey90', colour = 'white') + 
 geom_point(aes(x = lon, y = lat, size = N), color = 'orange',
            data = responses[, .N, by = .(lon, lat)]) +
-  xlab('') + ylab('') + ggtitle('Interested parties around the world') +
+  xlab('') + ylab('') + ggtitle('Where do you live?') +
   theme_minimal() + theme('legend.position' = 'top')
 
 ```
