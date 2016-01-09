@@ -1,0 +1,102 @@
+---
+output: md_document
+---
+## Interested parties
+```{r load_data, echo = FALSE}
+## load anonymized data from the referenced Google Spreadsheet
+## NOTE this is a manual "copy and paste" (!) of the survey responses
+##      into a new spreadsheet, as there is no other way to clear
+##      the e-mail addresses from the revision history
+library(googlesheets)
+responses <- gs_key('1v9aEe8ov4zSGWKjaNYMFbahdDST3RN88LoI56BGzQHM', visibility = 'public', verbose = FALSE)
+responses <- gs_read(responses, ws = 1, verbose = FALSE)
+
+## data.table showcase
+library(data.table)
+responses <- data.table(responses)
+
+## programmer-friendly column names
+setnames(responses, c('date','region', 'location', 'travel', 'roles'))
+```
+
+We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
+
+```{r plot_region, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
+## order factor levels based on the number of respondents
+responses[, region := factor(region, levels = responses[, .N, by = region][order(N), region])]
+
+## plotnumber of interested parties per region
+suppressPackageStartupMessages(library(ggplot2))
+ggplot(responses, aes(x = region)) +
+  geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
+  geom_text(data=responses[,.N,region],aes(y = N , label = N),
+            color = 'white', hjust = 1.3) +
+  xlab('') + ylab('') + ggtitle('What part of the world are you in?')
+```
+
+A more detailed breakdown of the location of the interested parties:
+
+```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 7, message=FALSE, warning=FALSE}
+## geocode locations
+suppressPackageStartupMessages(library(ggmap))
+responses[, c('lon', 'lat') := geocode(location, messaging = FALSE)]
+
+## map points on a world-map with the weight of interested parties at the same location
+library(maps)
+ggplot(map_data('world')) +
+  geom_polygon(aes(x = long, y = lat, group = group), fill = 'grey90', colour = 'white') + 
+geom_point(aes(x = lon, y = lat, size = N), color = '#2165B6',
+           data = responses[, .N, by = .(lon, lat)]) +
+  xlab('') + ylab('') + ggtitle('Where do you live?') +
+  theme_minimal() + theme('legend.position' = 'top')
+
+```
+
+We also asked how far the interested parties are willing to travel for an satRday event:
+
+```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
+## fix factor levels
+responses[, travel := factor(travel, levels = rev(c(
+                                         'To my nearest city',
+                                         'To anywhere in my country',
+                                         'To anywhere in my continent',
+                                         'To anywhere in the the world')))]
+
+## plot the number of interested parties willing to travel
+ggplot(na.omit(responses), aes(x = travel)) +
+  geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
+  geom_text(data=responses[,.N,travel],aes(y = N , label = N),
+            color = 'white', hjust = 1.3) +
+  xlab('') + ylab('') + ggtitle('How far are you willing to travel?')
+```
+
+It seems that most respondents are interested in local events, but quote many (~`r round(responses[travel != 'To my nearest city', .N] / responses[, .N] * 100)`%) respondents are willing to travel as well.
+
+Further great news and promising feedback from the community is that the respondents are willing to actively take part in future events:
+
+```{r plot_activity, echo = FALSE, fig.width = 10, fig.height = 5}
+## split list of promises
+promises <- unlist(strsplit(responses[, roles], ', '))
+
+## remove "other" answers
+promises <- promises[promises %in% c('Attending a satRday',
+                                     'Helping out a satRday',
+                                     'Helping publicise the events',
+                                     'Presenting at a satRday',
+                                     'Organising a satRday',
+                                     'Helping improve the website',
+                                     'Helping with central organisation',
+                                     'Sponsoring an event')]
+
+## order factor levels based on the number of respondents
+promises <- factor(promises, levels = names(sort(table(promises))))
+
+## plot the number of interested parties willing to do stuff
+ggplot(data.table(promises), aes(x = promises)) +
+  geom_bar(fill = '#2165B6') + theme_bw() + coord_flip() +
+  geom_text(data=data.table(promises)[,.N,promises],aes(y = N , label = N),
+            color = 'white', hjust = 1.3) +
+  xlab('') + ylab('') + ggtitle('What role(s) are you interested in?')
+```
+
+We already have more than `r round(sum(promises == 'Presenting at a satRday') , -1)` presenters, roughly `r round(sum(promises == 'Attending a satRday') , -1)` attendees and `r round(sum(promises == 'Helping improve the website') , -1)` webmasters -- what can go wrong?
