@@ -21,7 +21,7 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ##      the e-mail addresses from the revision history
 library(googlesheets)
 responses <- gs_key('1bkHGoae_j3Ikp3Bw7AO9kxCu_tC2HSzGhvlSMskGHvI', visibility = 'public', verbose = FALSE)
-responses <- gs_read(responses, ws = 1, range = cell_rows(1:279), verbose = FALSE)
+responses <- gs_read(responses, ws = 1, range = cell_rows(1:322), verbose = FALSE)
 
 ## data.table showcase
 library(data.table)
@@ -46,6 +46,7 @@ ggplot(responses, aes(x = region)) +
   xlab('') + ylab('') + ggtitle('What part of the world are you in?')
 ```
 
+<!--
 A more detailed breakdown of the location of the interested parties:
 
 ```{r plot_map, echo = FALSE, fig.width = 10, fig.height = 7}
@@ -63,7 +64,7 @@ geom_point(aes(x = lon, y = lat, size = N), color = '#2165B6',
   theme_minimal() + theme('legend.position' = 'top')
 
 ```
-
+-->
 We also asked how far the interested parties are willing to travel for an satRday event:
 
 ```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
