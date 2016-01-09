@@ -15,7 +15,7 @@ Steph's a Principal Consultant at Mango Solutions and runs user groups & confere
 ## Interested parties
 We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties:
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, fig.width = 6, fig.height = 3}
 
 ## load anonymized data from Google Spreadsheet
 ## NOTE this is a manual "copy and paste" (!) of the survey responses
@@ -31,5 +31,13 @@ responses <- data.table(responses)
 
 ## programmer-friendly column names
 setnames(responses, c('region', 'location', 'travel', 'roles'))
+
+## number of interested parties per continent
+suppressPackageStartupMessages(library(ggplot2))
+ggplot(responses, aes(x = region)) +
+  geom_bar() + theme_bw() + coord_flip() +
+  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+            color = 'white', hjust = 1.1) +
+  xlab('') + ylab('') + ggtitle('Number of interested parties per region')
 
 ```

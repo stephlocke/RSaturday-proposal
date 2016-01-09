@@ -47,6 +47,7 @@ install:
   - Rscript -e 'if(!"googlesheets" %in% rownames(installed.packages())) { install.packages("googlesheets", dependencies = TRUE) }'
   - Rscript -e 'if(!"readr" %in% rownames(installed.packages())) { install.packages("readr", dependencies = TRUE) }'
   - Rscript -e 'if(!"data.table" %in% rownames(installed.packages())) { install.packages("data.table", dependencies = TRUE) }'
+  - Rscript -e 'if(!"ggplot2" %in% rownames(installed.packages())) { install.packages("ggplot2", dependencies = TRUE) }'
   - Rscript -e 'update.packages(ask = FALSE, instlib = "~/Rlib")'
 
 script:
