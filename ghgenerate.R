@@ -1,4 +1,4 @@
-proposal<-"satRdays [WIP]"
+proposal<-"satRdays"
 proposal.file<-"isc-proposal.Rmd"
 author<-"Steph Locke"
 
