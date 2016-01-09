@@ -64,3 +64,23 @@ geom_point(aes(x = lon, y = lat, size = N), color = 'orange',
   theme_minimal() + theme('legend.position' = 'top')
 
 ```
+
+We also asked how far the interested parties are willing to travel for an satRday event:
+
+```{r plot_travel, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
+## fix factor levels
+responses[, travel := factor(travel, levels = rev(c(
+                                         'To my nearest city',
+                                         'To anywhere in my country',
+                                         'To anywhere in my continent',
+                                         'To anywhere in the the world')))]
+
+## plot the number of interested parties willing to travel
+ggplot(na.omit(responses), aes(x = travel)) +
+  geom_bar() + theme_bw() + coord_flip() +
+  geom_text(stat = 'bin', aes(y = ..count.. , label = ..count..),
+            color = 'white', hjust = 1.3) +
+  xlab('') + ylab('') + ggtitle('How far are you willing to travel?')
+```
+
+It seems that most respondents are interested in local events, but quote many (~`r round(responses[travel != 'To my nearest city', .N] / responses[, .N] * 100)`%) respondents are willing to travel as well.
