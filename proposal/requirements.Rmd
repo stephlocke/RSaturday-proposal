@@ -21,6 +21,14 @@ There is a fundamental emphasis on open source within the satRday project. As li
 
 The IP and assets like the satRdays.org domain will need to be transferred to ownership by the R Consortium.
 
+How the financing of the events occurs will also need to be addressed in collaboration with the Consortium. These events are intended to be not for profit so an event organiser should aim for break-even, and to ensure that the Consortium is not left with a big bill, liability for an event will need to sit with individual organisers in some fashion. A rough process for this could be:
+
+  1. Organisers deliver an initial budget for their event
+  2. Funds get allocated from the pool to contribute towards venue & catering costs and are used to **directly** pay or part pay those costs
+  3. Other funds go to the organiser's nominated accounts and will be used by them to handle any other costs
+  4. Post-event organisers deliver provide a budget vs actual report
+  5. Excess funds go back to the Consortium
+
 ## Tools & Tech
 <!--
 What is going to be needed to deliver this project? 
@@ -42,9 +50,7 @@ Are there tools or tech that don't exist that will be produced to facilitate the
 The central site will need hosting. Hosting of the site is expected to cost ~£50 per month.
 
 ### Conferences
-The trial conferences are expected to have ~600 people attend in total.  The requested amount of monetary support for these events is £9,000.
-
-It is expected that after the first trial conferences, funding will switch to a more traditional model and seek sponsorship directly. 
+The trial conferences are expected to have ~600 people attend in total.  The requested amount of monetary support for these events is £9,000. This will make the R Consortium (and it's individual members) main sponsors for the events. The gap between that and estimated cost per delegate of £25-£35 would then be made from either additional sponsors or from small fees to attendees. 
 
 ## Summary
 <!--
