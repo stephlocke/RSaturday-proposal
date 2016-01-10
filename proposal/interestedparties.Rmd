@@ -40,7 +40,7 @@ write.csv(responses,"parties.csv",row.names = FALSE)
 }
 ```
 
-We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
+We've had tremendous support from the community over the length of developing the proposal. From the first comments on the [initial blog post](http://itsalocke.com/sqlsaturdays-but-for-r/), to active discussion on the [repository](https://github.com/stephlocke/RSaturday-proposal), to `r responses[, .N]` people signing up as interested parties within 3 short days towards the end of the proposal development cycle. Below is a breakdown of the interested parties per region:
 
 ```{r plot_region, echo = FALSE, fig.width = 10, fig.height = 5, results = 'hide'}
 ## order factor levels based on the number of respondents
@@ -116,4 +116,5 @@ ggplot(data.table(promises), aes(x = promises)) +
   xlab('') + ylab('') + ggtitle('What role(s) are you interested in?')
 ```
 
-We already have more than `r round(sum(promises == 'Presenting at a satRday') , -1)` presenters, roughly `r round(sum(promises == 'Attending a satRday') , -1)` attendees and `r round(sum(promises == 'Helping improve the website') , -1)` webmasters -- what can go wrong?
+We already have more than `r round(sum(promises == 'Presenting at a satRday') , -1)` potential speakers, roughly `r round(sum(promises == 'Attending a satRday') , -1)` attendees and `r round(sum(promises == 'Helping improve the website') , -1)` webmasters -- what can go wrong?
+
