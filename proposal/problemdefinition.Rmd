@@ -34,7 +34,7 @@ In 2015, we saw a bumper number of R conferences. These were:
     + Psychoco 2015, Holland, **FREE**
     + R Programing Language and Basic Statistics for Research (R2015), Thailand, ~£100
 
-Unfortunately, this is still relatively few conferences. R has a huge surface areas, and the industry/topic specific conferences make a lot of sense, but the general conferences, that have the scope to meet the needs of a wide audience, occurred in just 6 countries. 
+Unfortunately, this is still relatively few conferences. R has a huge surface area and the industry/topic specific conferences make a lot of sense. General conferences though enable a broad audience to come together to learn, giving important benefits around the cross-pollination of ideas. Of these conferences though, they occured in just seven countries around the world last year.
 
 The BioConductor events are typically free but most other R conferences are not. Between the admission costs and the travel costs to reach the relatively few conferences, it puts R conferences out of reach for much of the world. Even in countries where they take place, many people won't be able to get the budget or sign off to attend. As a result, R conferences have an inherently biased audience and they do not help foster the growth of the R community enough.
 
