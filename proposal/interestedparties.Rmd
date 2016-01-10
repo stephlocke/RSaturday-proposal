@@ -117,10 +117,3 @@ ggplot(data.table(promises), aes(x = promises)) +
 ```
 
 We already have more than `r round(sum(promises == 'Presenting at a satRday') , -1)` presenters, roughly `r round(sum(promises == 'Attending a satRday') , -1)` attendees and `r round(sum(promises == 'Helping improve the website') , -1)` webmasters -- what can go wrong?
-
-```{r echo=FALSE, results='hide'}
-files<-list.files(path="~/RSaturday-proposal/proposal/interestedparties_files/figure-markdown_strict/",
-                  pattern = "*.png")
-file.copy(files,"~/RSaturday-proposal/proposal")
-file.copy(files,"~/RSaturday-proposal/")
-```
