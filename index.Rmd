@@ -22,7 +22,8 @@ img <- readPNG("satRdayLogo.png")
 ## Browse the docs
 Here's what we have so far!
 
-- [ISC Proposal doc - web version](isc-proposal.html)
-- [ISC Proposal doc - PDF version](isc-proposal.pdf)
+- [Latest proposal doc - web version](isc-proposal.html)
+- [Latest proposal doc - PDF version](isc-proposal.pdf)
+- [Submitted proposal doc - PDF version](satRdays-proposal.pdf)
 - [Organisers guide](satRday_organiser.html)
 - [The Conference Code of Conduct](ConferenceCodeOfConduct.html)
