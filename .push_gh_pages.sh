@@ -1,12 +1,9 @@
 #!/bin/bash
+rm -rf out || exit 0;
 
 GH_REPO="@github.com/stephlocke/RSaturday-proposal.git"
 
 FULL_REPO="https://$GH_TOKEN$GH_REPO"
-
-git config --global user.name "stephs-travis"
-git config --global user.email "steph@travis.ci"
-
 
 git clone https://github.com/stephlocke/RSaturday-proposal.git out --branch gh-pages
 
