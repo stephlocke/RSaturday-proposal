@@ -8,11 +8,15 @@ FULL_REPO="https://$GH_TOKEN$GH_REPO"
 git config --global user.name "stephs-travis"
 git config --global user.email "steph@travis.ci"
 
+
+git clone https://github.com/stephlocke/RSaturday-proposal.git out --branch gh-pages
+
 R CMD BATCH 'ghgenerate.R'
 cp ghgenerate.Rout out
 
 cd out
-git init
+git config user.name "stephs-travis"
+git config user.email "travis"
 git add .
-git commit -m "deployed to github pages"
-git push --force --quiet $FULL_REPO master:gh-pages
+git commit -m "$TRAVIS_COMMIT"
+git push --quiet $FULL_REPO
