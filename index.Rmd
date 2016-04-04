@@ -9,6 +9,8 @@ Welcome to the planning outputs of the satRday proposal!
 
 SatRdays are free/cheap conferences focused on R and organised by the local R community. They're aimed at making R knowledge accessible, growing the R user base, and developing more speakers on R.
 
+We've now [been accepted](https://www.r-consortium.org/news/announcement/2016/03/r-consortium-funds-technical-initiatives-community-events-and-training) by the [R Consortium](https://www.r-consortium.org) and are beavering away to contact the next lot of people who need to get involved. 
+
 ```{r fig.width=2, fig.height=2,echo=FALSE, warning=FALSE}
 library(png)
 library(grid)
