@@ -82,7 +82,7 @@ Retaining: \et@xerr, \et@xinput, \et@xlibhdr, \et@xmsg, \et@xtoks, \et@xwarn,
 \etexstatus, \module, \uselanguage, \r@tain, \r@cycle,)
 (/home/travis/texlive/texmf-dist/tex/plain/config/pdftexmagfix.tex) )
 Beginning to dump on file pdftex.fmt
- (preloaded format=pdftex 2016.4.3)
+ (preloaded format=pdftex 2016.4.4)
 2890 strings of total length 43150
 7960 memory locations dumped; current usage is 203&7321
 1260 multiletter control sequences
@@ -174,4 +174,4 @@ processing file: ./organiser/details.Rmd
 > 
 > proc.time()
    user  system elapsed 
- 32.085   2.570  35.896 
+ 39.633   2.664  43.376 
