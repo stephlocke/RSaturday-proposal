@@ -1,5 +1,6 @@
 # satRday proposal
 [![Build Status](https://travis-ci.org/stephlocke/RSaturday-proposal.svg?branch=master)](https://travis-ci.org/stephlocke/RSaturday-proposal) [![Sign Up](https://img.shields.io/badge/signup-here-blue.svg?style=social&link=http://goo.gl/forms/Xv7mym0BwJ&link=http://goo.gl/forms/Xv7mym0BwJ)](http://goo.gl/forms/Xv7mym0BwJ)
+[![Open Source Helpers](https://www.codetriage.com/stephlocke/rsaturday-proposal/badges/users.svg)](https://www.codetriage.com/stephlocke/rsaturday-proposal)
 
 <img src="satRdayLogo.png" width="250">
 
